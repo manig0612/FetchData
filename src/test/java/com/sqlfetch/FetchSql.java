@@ -8,6 +8,12 @@ import java.sql.Statement;
 
 public class FetchSql {
 	
+	private void add() {
+		
+		System.out.println("mumo");
+		
+	}
+	
 	public static void main(String[] args) throws SQLException {
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sys", "root", "mani@sql9176");
 		Statement st = con.createStatement();
