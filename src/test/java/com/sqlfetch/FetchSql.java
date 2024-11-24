@@ -17,7 +17,8 @@ public class FetchSql {
 			
 			String myfirst = exquery.getString(1);
 			String stu = exquery.getString(2);
-			System.out.println(myfirst + stu);
+			String str = exquery.getString(3);
+			System.out.println(myfirst + stu + str);
 		}
 		
 		
